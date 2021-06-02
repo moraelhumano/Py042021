@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    background-color: blueviolet;
 }
 
 nav{
@@ -9,10 +8,30 @@ nav{
     font-family: sans-serif;
     width: 100%;
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+   
 }
 
-#example-relative{
-    width: 500px;
-    height: 200px;
-    background-color: red;
+/* nav > a{
+    color: white;
+    text-decoration: none;
+} */
+
+
+
+#titulo-home{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+
+.parrafos-home{
+    font-size: 25px;
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
 }
